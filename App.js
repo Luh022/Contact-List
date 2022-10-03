@@ -16,7 +16,7 @@ import {
   export default function App() {
     const [todos, setTodos] = useState([
       { id: 1, text: 'Adicionar novo contato' },
-      { id: 2, text: 'Adicionar nome email' },
+      { id: 2, text: 'Adicionar novo email' },
       { id: 3, text: 'Adicionar data de nascimento' },
     ]);
 
