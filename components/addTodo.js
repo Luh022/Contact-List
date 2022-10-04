@@ -18,7 +18,7 @@ export default function AddTodo({ submitHandler }) {
       />
       <Button
         title="Adicionar"
-        color="#B482FF"
+        color="#B600BF"
         onPress={() => {
           submitHandler(text);
         }}
