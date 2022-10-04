@@ -12,7 +12,7 @@ export default function AddTodo({ submitHandler }) {
     <View>
       <TextInput
         style={styles.input}
-        placeholder="Nova tarefa..."
+        placeholder="Novo contato..."
         onChangeText={changeHandler}
         // onChangeText={val => changeHandler(val)}
       />
