@@ -18,7 +18,7 @@ export default function AddTodo({ submitHandler }) {
       />
       <Button
         title="Adicionar"
-        color="#E692DD"
+        color="#B482FF"
         onPress={() => {
           submitHandler(text);
         }}
@@ -33,6 +33,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: 8,
     paddingVertical: 6,
     borderBottomWidth: 1,
-    borderBottomColor: '#ddd',
+    borderBottomColor: 'black',
   },
 });
