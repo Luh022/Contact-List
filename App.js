@@ -15,9 +15,15 @@ import {
   
   export default function App() {
     const [todos, setTodos] = useState([
-      { id: 1, text: 'Adicionar novo contato' },
-      { id: 2, text: 'Adicionar novo email' },
-      { id: 3, text: 'Adicionar data de nascimento' },
+      { id: 1, text: 'Peter Parker' },
+      { id: 2, text: '12/05' },
+      { id: 3, text: 'peter12@gmail.com' },
+      { id: 4, text: 'Lily Colins' },
+      { id: 5, text: '20/12' },
+      { id: 6, text: 'lily@gmail.com' },
+      { id: 7, text: 'Anthony Bridgerton' },
+      { id: 8, text: '07/01' },
+      { id: 9, text: 'anthony_bridgerton@gmail.com' },
     ]);
 
     const pressHandler = id => {
